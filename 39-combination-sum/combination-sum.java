@@ -8,8 +8,6 @@ class Solution {
 
         solve(index,candidates, sidechick , result , target);
         return result;
-
-
         
     }
     void solve (int index,int []candidates,List<Integer> sidechick ,List<List<Integer>> result ,int target){
