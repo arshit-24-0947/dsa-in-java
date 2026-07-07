@@ -8,7 +8,9 @@ class Solution {
         while (left < right){
             int width = right - left;
             int area = Math.min(height[left], height[right]) * width;
+            
             //update maxArea
+
             if (maxArea<area){
                 maxArea = area;
             }
